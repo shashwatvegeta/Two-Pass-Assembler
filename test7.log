@@ -1,0 +1,20 @@
+Error nhi hai.
+Line Number 1 WARNING: Unused label: start
+Line Number 9 WARNING: Unused label: skip1
+Line Number 11 WARNING: Unused label: use_num2
+Line Number 13 WARNING: Unused label: next
+Line Number 18 WARNING: Unused label: skip2
+Line Number 19 WARNING: Unused label: use_num3
+Line Number 21 WARNING: Unused label: next2
+Line Number 26 WARNING: Unused label: skip3
+Line Number 27 WARNING: Unused label: use_num4
+Line Number 29 WARNING: Unused label: next3
+Line Number 34 WARNING: Unused label: skip4
+Line Number 35 WARNING: Unused label: use_num5
+Line Number 37 WARNING: Unused label: done
+Line Number 42 WARNING: Unused label: num1
+Line Number 43 WARNING: Unused label: num2
+Line Number 44 WARNING: Unused label: num3
+Line Number 45 WARNING: Unused label: num4
+Line Number 46 WARNING: Unused label: num5
+Line Number 47 WARNING: Unused label: result

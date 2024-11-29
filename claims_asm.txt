@@ -1,0 +1,145 @@
+/*****************************************************************************
+TITLE: Claims																																
+AUTHOR: Shashwat Kumar Singh
+Declaration of Authorship
+This txt file, claims.txt, is part of the assignment of CS2104 at the 
+department of Computer Science and Engg, IIT Patna . 
+*****************************************************************************/
+
+Files:
+==========
+All the files that I am submitting ( assembler.cpp and claims_asm.txt), have my name and student roll number at the start, along with a declaration of authorship.
+
+The evidence for Assembler including the output files from the four test examples given (test1 to test4) and bubblesort has also been uploaded. 
+They are test1(3 output files), test2(1 output file), test3(3 output files), test4(3 output files) and myBubbleSort(3 output files)
+ and one additional test (with output files). 
+All the test files have been tested and work properly. 
+
+
+Compilation instructions:
+=========================
+
+    g++ -std=c++11 asm.cpp -o asm
+    ./asm file_name 
+
+    * You need to create an asm file naming "test.asm" and run ./asm file_name
+    * Ouput files - if there are errors then file_name.log and if there are no errors then file_name.o file, file_name.lst,file_name.log file
+
+
+Assumptions:
+============
+    * Mnemonic named “data” is always used at the end of assembly code.
+    * Listing file (.lst) and Object file(.o) are generated only when there are no errors in the input Assembly code,  
+      otherwise only Error file (.log) is generated.
+
+
+=============================
+Program format and structure:
+=============================
+1. The assembler:
+
+    * It is a 2 pass assembler (implemented in assembler.cpp)    
+    * Every instruction is implemented.
+    * outputs the required correct information in the form of three files
+    *  .log file for errors and warnings
+    *  .lst file for listing 
+    *  .o file for machine code object
+    
+    * Consistent and sensible formatting with sensible program structure. 
+    * sensible variable, function & type names with explanatory comments.
+    * Advanced listing file gets generated. (named listingfile.lst)
+    * Assembles test programs (all 5 test cases including bubble sort).
+    * Machine code object file gets generated (named file_name.o)
+    * All important errors are diagnosed and corresponding error file gets generated (named file_name.log)
+    * SET instruction is also implemented (which carries extra marks).
+    * Code is written in C++ with best time complexity.
+    * Additional test case with outputs is also included in submission.
+
+    * While copying some testcases i got space betwen lines so for some testcases k=line numbers might differ
+    * Also while putting in listing file i put the values by converting to decimal
+
+
+=============================
+Testing:
+=============================
+
+1. The assembler:
+
+I have tested  five given examples(5 test files) shown as bellow. 
+The errors only occurred in the file test2.asm and the program immediately stopped and all errors were put in .log files. 
+
+The others were tested without any errors detected and produced three output files, listing file, 
+error log file and machine readable object file, for each example.
+
+1)
+#Input: test1.asm
+#Output: 
+a. test1.lst 
+b. test1.log (without any error messages)
+c. test1.o
+
+2)
+#Input: test2.asm
+#Output: 
+a. test2.log (with error messages)
+
+
+3)
+#Input:asm test3.asm
+#Output: 
+a. test3.lst 
+b. test3.log (without any error messages)
+c. test3.o
+
+4)
+#Input: test4.asm
+#Output: 
+a. test4.lst 
+b. test4.log (without any error messages)
+c. test4.o
+
+5)
+#Input:MyBubbleSort.asm
+#Output: 
+a. MyBubbleSort.lst 
+b. MyBubbleSort.log (without any error messages)
+c. MyBubbleSort.o
+
+I have tested  five examples(4 test files) shown as bellow. 
+The errors only occurred in the file test2.asm and the program immediately stopped and all errors were put in .log files. 
+
+The others were tested without any errors detected and produced three output files, listing file, 
+error log file and machine readable object file, for each example.
+
+1)
+#Input: test5.asm
+#Output: 
+a. test5.lst 
+b. test5.log (without any error messages)
+c. test5.o
+
+2)
+#Input: test6.asm
+#Output: 
+a. test6.lst 
+b. test6.log (without any error messages)
+c. test6.o
+
+
+3)
+#Input:asm test7.asm
+#Output: 
+a. test7.lst 
+b. test7.log (without any error messages)
+c. test7.o
+
+4)
+#Input: test8.asm
+#Output: 
+a. test8.lst 
+b. test8.log (without any error messages)
+c. test8.o
+
+
+
+

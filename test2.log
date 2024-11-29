@@ -1,0 +1,7 @@
+Line Number 3 ERROR: Duplicate label definition
+Line Number 4 ERROR: Undefined label: nonesuch
+Line Number 5 ERROR: Missing operand
+Line Number 6 ERROR: Extra operands on line
+Line Number 7 ERROR: Invalid label name
+Line Number 8 ERROR: Invalid mnemonic
+Line Number 9 ERROR: Invalid mnemonic

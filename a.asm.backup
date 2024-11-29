@@ -1,0 +1,12 @@
+
+        ldc 50          ; Load 50 into accumulator A.  B is unchanged.
+        ldnl 0           ; Load the value at memory location [A + 0] (which is 50 itself) into A.  B now holds 50.
+        ldc 30          ; Load 30 into A. B is now 50.
+        ldnl 0
+        add              ; Add B (50) and A (30), result (80) is in A. B is unchanged
+        ldc 20          ; Load 20 into A. B is still 50.
+        ldnl 0
+        sub              ; Subtract A (20) from B (50), result (30) is in A.
+        stnl 0           ; Store B (50) into memory location [A + 0]  which effectively stores 50 at the memory location where the result will be. A becomes 50, B remains 50.
+
+        HALT              ; Stop the emulator.

@@ -1,0 +1,64 @@
+/*****************************************************************************
+TITLE: Claims																																
+AUTHOR: Shashwat Kumar Singh(2301CS50)
+Declaration of Authorship
+This txt file, claims.txt, is part of the assignment of CS2104 at the 
+department of Computer Science and Engg, IIT Patna . 
+*****************************************************************************/
+
+Files:
+==========
+*All the files I submitted, emu.cpp and claims_emu.txt, have my name and student id at the start, along with a declaration of 
+authorship.
+
+* Files included are , emulator.cpp, mybubblesort.o ,test4.o ,test4.asm ,MyBubbleSort.asm
+
+Compilation instructions:
+=========================
+	
+	g++ -o emu emu.cpp -std=c++11
+	./emu.exe     
+
+	It will ask you for the filename first save the file in same folder as emu.cpp then give the name in .o format
+	After that a Menu driven program will offer you different type of instructions.
+
+Assumptions:
+============
+    * Mnemonic named “data” is always used at the end of assembly code.
+    * In trace, printed register values(or SP or PC) are values after execution of the current line
+
+NOTE:
+=====
+	* Every claim about assembler is already submitted and it satisfies here too (for emulator)
+	* all the commands work as mentioned above.
+
+The emulator: 
+=============
+(some files which were tested)
+1. test4.o
+	compiles successfully with all functionalities working as mentioned above
+
+2. MyBubbleSort.o
+	compiles successfully with all functionalities working as mentioned above
+
+3. test3.o
+	compiles successfully with all functionalities working as mentioned above
+
+4. test1.o
+	compiles successfully with all functionalities working as mentioned above
+
+5. test5.o
+	compiles successfully with all functionalities working as mentioned above
+
+6. test6.o
+	compiles successfully with all functionalities working as mentioned above
+
+7. test7.o
+	compiles successfully with all functionalities working as mentioned above
+
+8. test8.o
+	compiles successfully with all functionalities working as mentioned above
+
+    
+
+all other files are supposed to work fine too.
